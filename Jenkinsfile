@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Build the Spring Boot application using Maven
-                sh 'mvn clean package -DskipTests'
+                sh 'mvn clean package'
             }
         }
 
